@@ -11,7 +11,7 @@ print("=== Demo 1: Basic For Loop ===")
 
 # Loop ผ่านตัวเลข
 print("นับจาก 1 ถึง 5:")
-for i in range(1, 6):
+for i in range(1, 11, 2): # 0, 2, 4, 6, 8, 10
     print(f"รอบที่ {i}")
 
 print("\nนับแบบขั้น:")
